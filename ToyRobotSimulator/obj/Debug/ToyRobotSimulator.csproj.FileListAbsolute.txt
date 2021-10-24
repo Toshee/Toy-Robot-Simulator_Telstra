@@ -1,0 +1,4 @@
+C:\Users\Jeff\Desktop\New folder\ToyRobotSimulator-master3\ToyRobotSimulator\bin\Debug\ToyRobotSimulator.exe
+C:\Users\Jeff\Desktop\New folder\ToyRobotSimulator-master3\ToyRobotSimulator\bin\Debug\ToyRobotSimulator.pdb
+C:\Users\Jeff\Desktop\New folder\ToyRobotSimulator-master3\ToyRobotSimulator\obj\Debug\ToyRobotSimulator.exe
+C:\Users\Jeff\Desktop\New folder\ToyRobotSimulator-master3\ToyRobotSimulator\obj\Debug\ToyRobotSimulator.pdb
