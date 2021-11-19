@@ -8,6 +8,7 @@
         Move,
         Left,
         Right,
-        Report
+        Report,
+        Avoid
     }
 }

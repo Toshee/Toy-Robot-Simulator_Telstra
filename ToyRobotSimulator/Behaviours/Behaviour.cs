@@ -28,7 +28,7 @@ namespace ToySimulator.Behaviours
         {
             var command = InputParser.ParseCommand(input);
             if (command != Command.Place && ToyRobot.Position == null) return string.Empty;
-
+            if (command == Command.Avoid && ToyRobot.Position == null) return string.Empty;
             switch (command)
             {
                 case Command.Place:
@@ -46,6 +46,13 @@ namespace ToySimulator.Behaviours
                     break;
                 case Command.Right:
                     ToyRobot.RotateRight();
+                    break;
+                case Command.Avoid:
+                    var placeCommandParameterAvoid = InputParser.ParseCommandParameter(input);
+                    if (SquareBoard.IsValidPosition(placeCommandParameterAvoid.Position))
+                    {
+                        SquareBoard.Avoid(placeCommandParameterAvoid.Position);
+                    }
                     break;
                 case Command.Report:
                     return GetReport();

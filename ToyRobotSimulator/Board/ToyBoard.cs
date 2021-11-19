@@ -12,17 +12,23 @@ namespace ToySimulator.ToyBoard
         public int Rows { get; private set; }
         public int Columns { get; private set; }
 
+        public Position Position { get; set; }
         public ToyBoard(int rows, int columns)
         {
             this.Rows = rows;
             this.Columns = columns;
         }
 
+
         // Check whether the position specified is inside the boundaries of the square board.
         public bool IsValidPosition(Position position)
         {
             return position.X < Columns && position.X >= 0 && 
                    position.Y < Rows && position.Y >= 0;
+        }
+        public void Avoid(Position position)
+        {
+            this.Position = position;
         }
     }
 }
