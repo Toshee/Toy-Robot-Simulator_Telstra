@@ -23,3 +23,9 @@ C:\Tests\Toy Robot - Telstra\Toy-Robot-Simulator\Toy-Robot-Simulator_Telstra\Toy
 C:\Tests\Toy Robot - Telstra\Toy-Robot-Simulator\Toy-Robot-Simulator_Telstra\ToyRobotSimulator\obj\Debug\ToySimulator.csproj.CoreCompileInputs.cache
 C:\Tests\Toy Robot - Telstra\Toy-Robot-Simulator\Toy-Robot-Simulator_Telstra\ToyRobotSimulator\obj\Debug\ToyRobotSimulator.exe
 C:\Tests\Toy Robot - Telstra\Toy-Robot-Simulator\Toy-Robot-Simulator_Telstra\ToyRobotSimulator\obj\Debug\ToyRobotSimulator.pdb
+C:\Tests\Toy-Robot-Simulator_Telstra\ToyRobotSimulator\bin\Debug\ToyRobotSimulator.exe
+C:\Tests\Toy-Robot-Simulator_Telstra\ToyRobotSimulator\bin\Debug\ToyRobotSimulator.pdb
+C:\Tests\Toy-Robot-Simulator_Telstra\ToyRobotSimulator\obj\Debug\ToySimulator.csproj.AssemblyReference.cache
+C:\Tests\Toy-Robot-Simulator_Telstra\ToyRobotSimulator\obj\Debug\ToySimulator.csproj.CoreCompileInputs.cache
+C:\Tests\Toy-Robot-Simulator_Telstra\ToyRobotSimulator\obj\Debug\ToyRobotSimulator.exe
+C:\Tests\Toy-Robot-Simulator_Telstra\ToyRobotSimulator\obj\Debug\ToyRobotSimulator.pdb

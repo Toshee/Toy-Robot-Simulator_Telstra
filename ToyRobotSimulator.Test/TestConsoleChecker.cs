@@ -72,7 +72,7 @@ namespace ToySimulator.Test
             // act and assert
             var exception = Assert.Throws<ArgumentException>(delegate
             {  var placeCommandParameter = inputParser.ParseCommandParameter(rawInput); });
-            Assert.That(exception.Message, Is.EqualTo("Incomplete command. Please ensure that the PLACE command is using format: PLACE X,Y,F"));
+            Assert.That(exception.Message, Is.EqualTo("Incomplete command. Please ensure that the PLACE command is using format: PLACE X,Y,DIRECTION"));
         }
 
         /// <summary>
@@ -102,7 +102,7 @@ namespace ToySimulator.Test
 
             // act and assert
             var exception = Assert.Throws<ArgumentException>(delegate { paramParser.ParseParameters(rawInput); });
-            Assert.That(exception.Message, Is.EqualTo("Incomplete command. Please ensure that the PLACE command is using format: PLACE X,Y,F"));
+            Assert.That(exception.Message, Is.EqualTo("Incomplete command. Please ensure that the PLACE command is using format: PLACE X,Y,DIRECTION"));
         }
 
     }
